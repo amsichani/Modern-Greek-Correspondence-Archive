@@ -1,0 +1,67 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ψηφιακή έκδοση της επιστολογραφίας του Ιωάννη Συκουτρή με τις μαθήτριές του </title>
+                <respStmt>
+                    <resp>μεταγραφή</resp>
+                    <persName>Γεώργιος Χριστοδούλου</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>ηλεκτρονική κωδικοποίηση</resp>
+                    <persName>Ἀννα-Μαρία Σιχάνη</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Μορφωτικό Ίδρυμα Εθνικής Τραπέζης</publisher>
+                <pubPlace>Αθήνα</pubPlace>
+                <date when="2015-11">Νοέμβριος 2015</date>
+                <availability>
+                 Copyright 2016 - Το κείμενο της επιστολής είναι προϊόν πνευματικών δικαιωμάτων
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+		    <title>
+			    "Με φιλίαν παντοτινήν και άδολην". </title>
+			    <title type="sub">Γράμματα του Ιωάννη Συκουτρή στις μαθήτριές του</title>
+		    
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Ernesto Monaci</persName>
+                    <placeName>Roma</placeName>
+                    <date when="1873-11-22">22 novembre 1873</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Graziadio Isaia Ascoli</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName></placeName>
+                        <!-- L'attributo @when sull'elemento <date> vuole la data nel formato specificato dal W3C: anno-mese-giorno -->
+                        <date when="1873-11-22">22 novembre 1873</date>
+                    </dateline>
+                    <salute>Mio Signore!</salute>
+                </opener>
+                <p>
+		    </p>
+                <closer><salute>Gradisca, mio signore, la protesta sincera della mia devozione e del
+                        mio ossequio. Suo obblmo servo</salute>
+                    <signed></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>
