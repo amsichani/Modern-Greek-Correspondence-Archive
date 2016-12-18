@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -14,54 +13,63 @@
                 </respStmt>
                 <respStmt>
                     <resp>ηλεκτρονική κωδικοποίηση</resp>
-                    <persName>Ἀννα-Μαρία Σιχάνη</persName>
+                    <persName>Ἀννα-Μαρία Σιχάνη<email>anna-maria.sichani@huygens.knaw.nl</email></persName>
                 </respStmt>
             </titleStmt>
-            <publicationStmt>
-                <publisher>Μορφωτικό Ίδρυμα Εθνικής Τραπέζης</publisher>
-                <pubPlace>Αθήνα</pubPlace>
-                <date when="2015-11">Νοέμβριος 2015</date>
+	<publicationStmt>
+                <publisher>
+                   Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας
+                </publisher>
+                <date when="2015-10-11T13:47:49.11+02:00"/>
                 <availability>
-                 Copyright 2016 - Το κείμενο της επιστολής είναι προϊόν πνευματικών δικαιωμάτων
+                    <licence target="https://creativecommons.org/licenses/by/3.0/">CC-BY-3.0</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-		    <title>
-			    "Με φιλίαν παντοτινήν και άδολην". </title>
-			    <title type="sub">Γράμματα του Ιωάννη Συκουτρή στις μαθήτριές του</title>
-		    
-            </sourceDesc>
+                    <bibl type="print" xml:lang="greek">«Με φιλίαν παντοτινήν και άδολη», Γράμματα του Ιωάννη Συκουτρή στις μαθήτριές του (1933-1937),
+                        εισαγωγή: Γεώργιος Α. Χριστοδούλου, φιλολογική επιμέλεια και επίμετρο: Ελένη Ράμφου, ΜΙΕΤ,2015 </bibl>     
+            </sourceDesc> 
         </fileDesc>
         <profileDesc>
-            <correspDesc>
+		
+            <!-- Correspondence Metadata Interchange Format (example 2 of 2)
+                
+                This file is an example of a list of correspondence descriptions from a whole 
+                printed scholarly edition of letters. The letters are *only* in a printed 
+                book available, i.e. you have to use a "classic" reference with bibliographic information
+                (sourceDesc/bibl) and the identification number of the letter (noted in every correspDesc/@key). 
+                
+                For an example with letters from a *digital* edition see example13_cmi.xml.
+                
+                If you provide such a file online for your edition, it can be retrieved by other digital 
+                scholarly editions and web services, e.g. http://correspSearch.bbaw.de.
+            -->
+            
+            <correspDesc key="001">
                 <correspAction type="sent">
-                    <persName>Ernesto Monaci</persName>
-                    <placeName>Roma</placeName>
-                    <date when="1873-11-22">22 novembre 1873</date>
+                    <persName ref="http://www.idref.fr/130299960">Ιωάννης Συκουτρής</persName>
+                    <placeName ref="http://www.geonames.org/264371/">Ράχες Ἰκαρίας</placeName>
+			<date when="1933-07-16"> 16 Ιουλίου 1933 </date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Graziadio Isaia Ascoli</persName>
+                    <persName ref="http://d-nb.info/gnd/118629662">Μαρίκα Ἀλ. Στρομπούλη </persName>                             
+                    <placeName ref="http://www.geonames.org/2873891">Ἀλεξανδρούπολις</placeName>
+                    <date when="1933-07-16"/>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+
+        <revisionDesc>
+            <change>
+                <persName>Ἀννα-Μαρία Σιχάνη</persName>
+                <date>12-10-2015</date>
+                <p> basic ΤΕΙ encoding</p>
+            </change>
+            <change>
+                <persName>Ἀννα-Μαρία Σιχάνη</persName>
+                <date>25-10-2015</date>
+                <p>correspDesc addition</p>
+            </change>
+        </revisionDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div>
-                <opener>
-                    <dateline>
-                        <placeName></placeName>
-                        <!-- L'attributo @when sull'elemento <date> vuole la data nel formato specificato dal W3C: anno-mese-giorno -->
-                        <date when="1873-11-22">22 novembre 1873</date>
-                    </dateline>
-                    <salute>Mio Signore!</salute>
-                </opener>
-                <p>
-		    </p>
-                <closer><salute>Gradisca, mio signore, la protesta sincera della mia devozione e del
-                        mio ossequio. Suo obblmo servo</salute>
-                    <signed></signed></closer>
-            </div>
-        </body>
-    </text>
-</TEI>
+	    
