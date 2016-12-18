@@ -15,13 +15,14 @@ PROJECTS
 <ul>
 <li><a href="http://www.weber-gesamtausgabe.de/en/Index"> Carl Maria von Weber – Collected Works </a></li>
 
-Alfred Escher Letter Edition (Switzerland) 
-http://www.briefedition.alfred-escher.ch
-BurckhardtSource (Italy) 
-www.burckhardtsource.org
+<li>
+<a href="http://www.briefedition.alfred-escher.ch">Alfred Escher Letter Edition (Switzerland) </a></li>
+<li>
+<a href="www.burckhardtsource.org"> BurckhardtSource (Italy) </a></li>
 
-Corpus of Ioannes Dantiscus' Texts & Correspondence (Poland) 
-http://dantiscus.al.uw.edu.pl/
+
+<li><a href="http://dantiscus.al.uw.edu.pl/">Corpus of Ioannes Dantiscus' Texts & Correspondence (Poland) </a></li>
+
 
 Digital Critical Edition of Nietzsche’s Works and Letters (Germany) 
 http://www.nietzschesource.org/
