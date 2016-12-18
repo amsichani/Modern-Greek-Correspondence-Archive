@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Example correspondence description from the Sykoutris correspondence</title>
-                <editor>Anna-Maria Sichani<email>anna-maria.sichani@huygens.knaw.nl</email></editor> 
+                <title>Ψηφιακή έκδοση της επιστολογραφίας του Ιωάννη Συκουτρή με τις μαθήτριές του </title>
+                <respStmt>
+                    <resp>μεταγραφή</resp>
+                    <persName>Γεώργιος Χριστοδούλου</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>ηλεκτρονική κωδικοποίηση</resp>
+                    <persName>Ἀννα-Μαρία Σιχάνη<email>anna-maria.sichani@huygens.knaw.nl</email></persName>
+                </respStmt>
             </titleStmt>
-            
-            <publicationStmt>
+	<publicationStmt>
                 <publisher>
-                    Αλληλογραφία <ref target="http://www.miet.gr/web/default.asp">Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας"</ref>
+                   Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας
                 </publisher>
                 <date when="2015-10-11T13:47:49.11+02:00"/>
                 <availability>
@@ -21,11 +27,11 @@
             </publicationStmt>
             <sourceDesc>
                     <bibl type="print" xml:lang="greek">«Με φιλίαν παντοτινήν και άδολη», Γράμματα του Ιωάννη Συκουτρή στις μαθήτριές του (1933-1937),
-                        εισαγωγή: Γεώργιος Α. Χριστοδούλου, φιλολογική επιμέλεια και επίμετρο: Ελένη Ράμφου, ΜΙΕΤ,2015 </bibl>    
-               
-            </sourceDesc>
+                        εισαγωγή: Γεώργιος Α. Χριστοδούλου, φιλολογική επιμέλεια και επίμετρο: Ελένη Ράμφου, ΜΙΕΤ,2015 </bibl>     
+            </sourceDesc> 
         </fileDesc>
         <profileDesc>
+		
             <!-- Correspondence Metadata Interchange Format (example 2 of 2)
                 
                 This file is an example of a list of correspondence descriptions from a whole 
@@ -38,13 +44,12 @@
                 If you provide such a file online for your edition, it can be retrieved by other digital 
                 scholarly editions and web services, e.g. http://correspSearch.bbaw.de.
             -->
-           
             
             <correspDesc key="001">
                 <correspAction type="sent">
                     <persName ref="http://www.idref.fr/130299960">Ιωάννης Συκουτρής</persName>
                     <placeName ref="http://www.geonames.org/264371/">Ράχες Ἰκαρίας</placeName>
-                    <date when="1933-07-16"/>
+			<date when="1933-07-16"> 16 Ιουλίου 1933 </date>
                 </correspAction>
                 <correspAction type="received">
                     <persName ref="http://d-nb.info/gnd/118629662">Μαρίκα Ἀλ. Στρομπούλη </persName>                             
@@ -53,14 +58,15 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+
         <revisionDesc>
             <change>
-                <persName>Anna-Maria Sichani</persName>
+                <persName>Ἀννα-Μαρία Σιχάνη</persName>
                 <date>12-10-2015</date>
                 <p> basic ΤΕΙ encoding</p>
             </change>
             <change>
-                <persName>Anna-Maria Sichani</persName>
+                <persName>Ἀννα-Μαρία Σιχάνη</persName>
                 <date>25-10-2015</date>
                 <p>correspDesc addition</p>
             </change>
@@ -309,13 +315,13 @@
                 καὶ θἄχω ἴσως λιγώτερο καιρό.</p>
            
    
-    <closer>  
+     <closer>  
         <salute>Μὰ πάντα θὰ σὲ σκέπτωμαι καὶ θὰ βρίσκωμαι κοντά σου μὲ φιλίαν παντοτινὴν καὶ ἄδολη
        </salute>
         <signed>
             <persName>Ι.Α.Γ. Συκουτρῆς</persName>
         </signed> 
-        <p>Ἡ Χαρὰ 
+        <seg>Ἡ Χαρὰ 
             <note place="foot" xml:id="ftn12" n="12">
                 <p rend="footnote text"> Ἡ Χαρὰ Συκουτρῆ (Ρέθυμνο 1901 – Ἀθήνα 1973) ἦταν κόρη
                     τῆς Μαρίας καὶ τοῦ Μίνωος Πετυχάκη, δικηγόρου, πολιτικοῦ, συνεργάτη τοῦ Ε.
@@ -328,8 +334,14 @@
                 </p>
             </note>
             σὲ χαιρετᾷ. Πῶς περνᾷς στὴ Θράκη; Βρίσκεις καιρὸ νὰ διαβάζῃς;
-        </p>
+        </seg>
     </closer>
+           
+            
+    
+   </body>
+  </text>
+</TEI>
            
             
     
