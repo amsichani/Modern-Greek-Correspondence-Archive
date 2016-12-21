@@ -68,8 +68,9 @@
 
 
 <li><a href="http://www.ub.unibas.ch/bernoulli/index.php/Briefinventar">The Correspondence of the Mathematicians Bernoulli </a>(Switzerland) </li>
-
-
+</ul>
+##Correspondence Networks 
+<ul>
 <li><a href="http://emlo.bodleian.ox.ac.uk/">Correspondence networks . Early Modern Letters Online </a></li>
 
 <li><a href="http://ckcc.huygens.knaw.nl/epistolarium/">ePistolarium</a></li>
@@ -79,7 +80,7 @@
 
 
 <li><a href="http://www.e-enlightenment.com/index.html">Electronic enlightenment </a></li>
-</ul>
+
 
 
 <li><a href="http://tei.ibi.hu-berlin.de/berliner-intellektuelle/?en">Letters and texts: Intellectual Berlin around 1800</a> (Germany)  </li>
