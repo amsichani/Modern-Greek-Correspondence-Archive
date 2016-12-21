@@ -11,7 +11,7 @@
 
 </ul>
 
-## PROJECTS
+## Εκδόσεις σωμάτων αλληλογραφίας 
 <ul>
 <li><a href="http://www.weber-gesamtausgabe.de/en/Index"> Carl Maria von Weber – Collected Works </a></li>
 
@@ -69,7 +69,7 @@
 
 <li><a href="http://www.ub.unibas.ch/bernoulli/index.php/Briefinventar">The Correspondence of the Mathematicians Bernoulli </a>(Switzerland) </li>
 </ul>
-##Correspondence Networks 
+##Δίκτυα αλληλογραφίας 
 <ul>
 <li><a href="http://emlo.bodleian.ox.ac.uk/">Correspondence networks . Early Modern Letters Online </a></li>
 
