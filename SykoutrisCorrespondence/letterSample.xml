@@ -10,15 +10,14 @@
                 <respStmt>
                     <resp>μεταγραφή</resp>
                     <persName>Γεώργιος Χριστοδούλου</persName>
-                </respStmt>
-                <respStmt>
+          
                     <resp>ηλεκτρονική κωδικοποίηση</resp>
                     <persName>Ἀννα-Μαρία Σιχάνη<email>anna-maria.sichani@huygens.knaw.nl</email></persName>
                 </respStmt>
             </titleStmt>
 	<publicationStmt>
                 <publisher>
-                   Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας
+                   Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας"
                 </publisher>
                 <date when="2015-10-11T13:47:49.11+02:00"/>
                 <availability>
