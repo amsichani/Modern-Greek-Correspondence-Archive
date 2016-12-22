@@ -123,7 +123,7 @@
           
 <note type="introduction" resp="#GC">Σὲ κατάκλαστο ὑπόλευκο χαρτί, διαστάσεων 27,3×21,1 ἑκ. (2 φύλλα). 
     Στὸν φάκελο ἀναγράφεται ἡ διεύθυνση: 
-    <persName key="#MS">Δδα <forename>Μαρίκαν </forename>Ἀλ.<surname> Στρομπούλη</surname></persName>,
+    <persName ref="#MS">Δδα <forename>Μαρίκαν </forename>Ἀλ.<surname> Στρομπούλη</surname></persName>,
     <placeName>
     Ἀλεξανδρούπολις,</placeName>
     Ἑταιρεία Οἴνων καὶ Οἰνοπνευμάτων. 
@@ -407,7 +407,7 @@
                <persName ref="#SM"><forename>Σίμος</forename><surname> Μενάρδος</surname></persName> (Μυτιλήνη 1872) ἀπεβίωσε στὶς 23 Ἰουλίου 1933, καὶ ὁ <persName key="#IS"> Ι.Σ.</persName>
                         ἐκφώνησε τὴ νεκρολογία του στὸ φιλολογικὸ μνημόσυνο τῆς Ἐπιστημονικῆς
                         Ἑταιρείας, στὶς 21 Νοεμβρίου 1933 (<bibl><title>Ἀθηνᾶ</title> <biblScope unit="issue">45</biblScope> (<date>1934</date>),
-                            <biblScope unit="pp">295–330</biblScope> </bibl>= <bibl><author key="#IS"><persName><surname>Συκουτρής</surname></persName></author>,<title>Μελέται καὶ Ἄρθρα</title>,
+                            <biblScope unit="pp">295–330</biblScope> </bibl>= <bibl><author ref="#IS"><persName><surname>Συκουτρής</surname></persName></author>,<title>Μελέται καὶ Ἄρθρα</title>,
                         329–345).</bibl>
                 </p>
              </note>
