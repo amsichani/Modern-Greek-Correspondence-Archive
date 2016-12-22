@@ -1,0 +1,175 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ψηφιακή έκδοση της επιστολογραφίας του Ιωάννη Συκουτρή με τις μαθήτριές του (1933-1937)
+                </title>
+                <respStmt>
+                    <resp >αρχική μεταγραφή</resp>
+                    <persName xml:id="GC">Γεώργιος Χριστοδούλου</persName>
+                </respStmt>   
+                <respStmt>
+                    <resp>επιμέλεια μεταγραφής</resp>
+                    <persName xml:id="ER">Ελένη Ράμφου</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>ηλεκτρονική κωδικοποίηση</resp>
+                    <persName xml:id="AMS">Ἀννα-Μαρία Σιχάνη<email>anna-maria.sichani@huygens.knaw.nl</email></persName>
+                </respStmt>
+                <funder> Μορφωτικό Ιδρυμα Εθνικής Τραπέζης</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition n="01"> απόπειρα κωδικοποίησης 
+                    <date when="2016-10-11">11 Νοεμβρίου 2015</date>
+                </edition>
+                <respStmt>
+                    <resp>πρώτη κωδικοποίηση </resp>
+                    <persName resp="AMS">Ἀννα-Μαρία Σιχάνη</persName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    Μορφωτικό Ιδρυμα Εθνικής Τραπέζης (ΜΙΕΤ) 
+                </publisher>
+                <date when="2016-10-11"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/3.0/">CC-BY-3.0</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title> Πιλοτικό πρόγραμμα "Αρχείο Νεοελληνικής Επιστολογραφίας"</title>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl type="print" xml:lang="greek">
+                    <title>«Με φιλίαν παντοτινήν και άδολη», Γράμματα του Ιωάννη Συκουτρή στις μαθήτριές του (1933-1937),
+                    </title> 
+                    <editor resp="#GC"> <!-- εισαγωγή:   --> Γεώργιος Α. Χριστοδούλου </editor>  
+                    <editor resp="#ER"><!-- φιλολογική επιμέλεια και επίμετρο:  -->Ελένη Ράμφου</editor> 
+                    <date when="2015-10-01">Οκτώβριος 2015 </date>
+                    <placeName>Αθήνα</placeName>
+                    <publisher>  Μορφωτικό Ιδρυμα Εθνικής Τραπέζης (ΜΙΕΤ)   </publisher>             
+                </bibl> 
+            </sourceDesc> 
+        </fileDesc>
+        <profileDesc>
+            
+            <!-- Correspondence Metadata Interchange Format 
+             
+            -->
+            
+            <correspDesc xml:id="let02">
+                <correspAction type="sent">
+                    <persName xml:id="IS" ref="http://www.idref.fr/130299960">Ιωάννης Συκουτρής</persName>
+                    <placeName ref="http://www.geonames.org/264371/">Ράχες Ἰκαρίας</placeName>
+                    <date >χ.χ.</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName xml:id= "AFM" >Ἀγλαΐα Φακάλου- Μακάρωφ</persName>                             
+                    <placeName ref="http://www.geonames.org/2873891">Ἀλεξανδρούπολις</placeName>
+                    <date>χ.χ.</date>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <persName resp="#AMS">Ἀννα-Μαρία Σιχάνη</persName>
+                <date>12-10-2015</date>
+                <p> basic ΤΕΙ encoding</p>
+            </change>
+            <change>
+                <persName resp="#AMS">Ἀννα-Μαρία Σιχάνη</persName>
+                <date>25-10-2015</date>
+                <p>correspDesc addition</p>
+            </change>
+            <change> header formatting
+                <date>25-11-2016</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <note>
+                Σὲ ὑπόλευκο χαρτί, διαστάσεων 21,2×13,1 ἑκ. Ἡ ἐπιστολὴ δὲν φέρει ἡμερομηνία. Ἐνδέχεται νὰ εἶναι ἡ πρώτη ἐπιστολὴ
+                ποὺ ἀπηύθυνε ὁ <persName ref="#IS"><forename>Ι.</forename><surname>Σ.</surname></persName> πρὸς τὴν <persName key="corr2"><forename>Ἀγλαΐα</forename></persName>, ἀπὸ τὴν Ἰκαρία, τὸ καλοκαίρι τοῦ 1933. 
+                Ἀπὸ τὸ περιεχόμενο τοῦ γράμματος φαίνεται ὅτι ἡ <persName key="corr2"><forename>Ἀγλαΐα</forename></persName> 
+                καὶ ἡ <persName key="corr3"><forename>Μαρία </forename></persName>δὲν εἶναι ἀκόμη φοιτήτριες 
+                (τὶς ὀνομάζει «‛‛μικρά’’», «πρὸς διάκρισιν ἀπὸ τὶς φοιτήτριες καὶ τὶς μαθήτριες τοῦ Διδασκαλείου»), 
+                ἄρα τὸ <date when="1934">1934</date>, ὁπότε τελείωσαν τὴ ΣΤ΄ Γυμνασίου, εἶναι terminus ante quem. Ὡστόσο δὲν μπορεῖ νὰ εἶναι τοῦ 1934,
+                ἐπειδὴ ἔχει διασωθεῖ τὸ πρῶτο γράμμα ποὺ ἔστειλε ὁ <persName ref="#IS"><forename>Ι.</forename><surname>Σ.</surname></persName> . ἀπὸ τὴν <placeName>Ἰκαρία</placeName> πρὸς τὴν <persName key="corr2"><forename>Ἀγλαΐα</forename></persName> ἐκεῖνο τὸ καλοκαίρι. 
+                Ἡ ἐπιστολὴ θὰ μποροῦσε νὰ εἶχε σταλεῖ καὶ πρὶν ἀπὸ τὸ <date when="1933"></date>1933, 
+                δὲν σώζεται ὅμως τεκμήριο ἀλληλογραφίας τοῦ <persName key="corr1"><forename>Ι.</forename><surname>Σ.</surname>
+                </persName>  μὲ τὶς δύο του μαθήτριες ἀπὸ προηγούμενο ἔτος,
+                εἴτε ἐπειδὴ δὲν ἀλληλογραφοῦσαν, εἴτε ἐπειδὴ δὲν διασώθηκε.
+            </note>    
+            <opener>
+                <dateline>
+                    <placeName>Ράχες Ἰκαρίας</placeName>   
+                    <date notBefore="1933-07-11" notAfter="1934-07-18" cert="medium"/>    
+                    </dateline>
+                <salute> Καλή μου <persName key="corr1">Ἀγλαΐα</persName>,</salute>
+            </opener>
+           
+                    <p>Σ' ἐσένα αὐτὴ τὴ φορὰ γράφω σύντομα, ἀφοῦ ἔγραψα πολλὰ στὴ Μαρία
+                        μας.<note resp="GC" xml:id="ftn1" place="foot" n="1"><p rend="footnote text" > Τὸ γράμμα
+                            πρὸς τὴ <persName key="corr3"><forename>Μαρία </forename></persName>δὲν σώζεται.</p></note> Ἔτσι εἶναι! Ἄλλη φορὰ θὰ συμβαίνῃ
+                        τἀνάπαλιν· θὰ ἐξαρτηθῇ ἄλλως τε καὶ ἀπὸ τὸ πόσα θὰ μοῦ γράφετε σεῖς.</p>
+            <p>Ἀπὸ τὴ <persName key="corr3"><forename>Μαρία </forename></persName>
+                <note resp="GC" xml:id="ftn2" place="foot"><p rend="footnote text"> 
+                        Οἱ παραλήπτριες κοινοποιοῦσαν στὶς φίλες τους τὰ
+                    γράμματα ποὺ τοὺς ἔστελνε ὁ <persName key="corr1"><surname>Συκουτρής</surname></persName>, βλ. 
+                    ἐπιστ. 12, 15, 17 καὶ 32, ἐνῶ σὲ
+                    μία περίπτωση ὁ ἴδιος ὁ <persName key="corr1"><surname>Συκουτρής</surname></persName> κοινοποιεῖ τὸ γράμμα τῆς Μαρίας στὴν
+                        Ἀγλαΐα, βλ. ἐπιστ. 24. Πρβλ. 
+                    <bibl type="book" xml:id="Kakridis">
+                            <author>
+                                <name>
+                                    <surname>Κακριδής</surname>
+                                </name>
+                            </author>
+                            <title>Γράμματα</title> 
+                            <biblScope unit="pp" from="21" to="22">21-22</biblScope>.
+                </bibl>
+                    </p>
+                </note> 
+                θὰ μάθῃς γιὰ τὸ ταξίδι μας καὶ γιὰ τὸν τόπο ἐδῶ, ποὺ
+                        μένομε, ὅλες τὶς πληροφορίες, ποὺ σὰν εὐσυνείδητος ἀνταποκριτὴς τῆς ἔστειλα.</p>
+                    <p>Ἐσὺ πῶς τὰ περνᾷς αὐτοῦ; Φαντάζομαι μὲ τὴ μελέτη καὶ τὸ ξεκούρασμα·
+                        ἀκριβῶς ὅ,τι κάνομε καὶ μεῖς ἐδῶ, μόνο ποὺ δὲν χρειάσθηκε νὰ κάνῃς ἕνα ταξίδι
+                        ὁλόκληρο. Ἀλλ' ὅμως ἔχομεν ἐδῶ ἐξαιρετικὴ ἡσυχία καὶ αὐτὸ εἶναι κάτι. Μόνο ποὺ τὰ
+                        φροῦτα δὲν ἔγιναν ἀκόμη, ἐφέτος ἄργησε νὰ μπῇ τὸ καλοκαίρι.</p>
+                    <p >Μὲ τί χαρὰ ξαναβλέπω τὰ παλιὰ πρόσωπα. Δὲ θυμοῦμαι ὅλων τὰ ὀνόματα,
+                        μὰ πάντα τοὺς ξαναζωντανεύω στὴ μνήμη μου. Τὴν ἐρχομένη <date>Παρασκευὴ</date> ἀναχωρεῖ ἀπὸ τὸν
+                        <placeName>Πειραιᾶ</placeName> καὶ ὁ κ. <persName key="4"><forename>Γ.<surname>Ἀργυρόπουλος</surname></forename></persName>,
+                        <note resp="GC" xml:id="ftn3" place="foot"><p rend="footnote text">  Ὁ λόγιος καὶ ποιητὴς
+                            <persName><forename>Γιάγκος <surname>Ἀργυρόπουλος</surname></forename></persName> γεννήθηκε
+                            στὴν <placeName>Πάρο</placeName> τὸ <date when="1893"></date>1893. Δίδαξε ἀπαγγελία στὸ Ὠδεῖο Ἀθηνῶν καὶ ἵδρυσε δική του
+                            σχολὴ στὸ Λύκειο Ἑλληνίδων. Ἐργάσθηκε ὡς δημοσιογράφος στὶς ἐφημερίδες <bibl><title>Ἀθῆναι</title>
+                            </bibl>,  <bibl><title>Ἐφημερίδα</title></bibl>, <bibl><title>Ἑστία</title></bibl> κ.ἄ.</p></note> ποιητὴς καὶ καθηγητὴς
+                        ἀπαγγελίας, ποὺ ἦταν καὶ πέρυσι. Ἀπὸ τώρᾳ χαίρω || γιὰ τὴ συντροφιά του. Ἐκάναμε
+                        ὡραῖες ἐκδρομὲς μαζί.</p>
+            <p >Ἐννοεῖς, μὲ τὴ <persName key="3"><forename>Χαρὰ</forename></persName> μιλοῦμε συχνὰ γιὰ σᾶς τὶς δυό,
+                γιὰ τὰ «μικρὰ»
+                        ὅπως σᾶς ὀνομάζομε, πρὸς διάκρισιν ἀπὸ τὶς φοιτήτριες καὶ τὶς μαθήτριες τοῦ
+                        Διδασκαλείου.<note place="foot" xml:id="ftn4" n="4"><p rend="footnote text">
+                            Ἐνδέχεται νὰ ἀναφέρεται στὶς μαθήτριες τῆς συζύγου του <persName key="3"><forename>
+                                Χαρᾶς
+                            </forename></persName>.</p></note> Τί
+                        καλὰ θὰ ἦταν νὰ σᾶς εἴχαμ' ἐδῶ.</p>
+                    <p>Στὴν μητέρα σου μεταβίβασε τὰ σέβη μου</p>
+              <closer>
+                <salute>Μὲ πολλὴν ἀγάπην
+                </salute>
+                <signed>
+                    <persName key="corr1"><forename>Ι.Α.Γ.</forename><surname>Συκουτρής</surname></persName>
+                </signed>
+                <p>
+                    Διεύθυνσις: Ράχες Ἰκαρίας. Θὰ χαρῶ πολὺ νἄχω νέα σου.
+                </p>
+              </closer>
+        </body>
+    </text>
+</TEI>
+
