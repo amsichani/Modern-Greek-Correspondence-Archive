@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
@@ -110,7 +111,33 @@
     </teiHeader>
     <text>
         <body>
-          
+            <note type="introduction" resp="#GC">Σὲ κατάκλαστο ὑπόλευκο χαρτί, διαστάσεων 27,3×21,1 ἑκ. (2 φύλλα). 
+                Στὸν φάκελο ἀναγράφεται ἡ διεύθυνση: 
+                <persName ref="#MS">Δδα <forename>Μαρίκαν </forename>Ἀλ.<surname> Στρομπούλη</surname></persName>,
+                <placeName>
+                    Ἀλεξανδρούπολις,</placeName>
+                Ἑταιρεία Οἴνων καὶ Οἰνοπνευμάτων. 
+                Πρώτη δημοσίευση τῆς ἐπιστολῆς μὲ περικοπὲς στὸ 
+                <bibl type="book">
+                    <author>
+                        <persName ref="#IS"><surname>Συκουτρής</surname></persName>, </author>
+                    <title>«Ἀνέκδοτα γράμματα»</title>, 
+                    <biblScope unit="pp" from="536"
+                        to="537">536–537
+                    </biblScope>
+                </bibl> 
+                καὶ δεύτερη στὸ 
+                <bibl type="book"> 
+                    <author>
+                        <persName ref="#IS"><surname>Συκουτρής</surname></persName></author>. 
+                    <title>Πενήντα χρόνια</title>, 
+                    <biblScope unit="pp" from="51"
+                        to="55">51–55
+                    </biblScope>.
+                </bibl>
+            </note> 
+            
+            <div type="letter">
             <opener>
                 <dateline>
                     <placeName>Ράχες Ἰκαρίας,
@@ -121,31 +148,7 @@
                   </salute>
             </opener>
           
-<note type="introduction" resp="#GC">Σὲ κατάκλαστο ὑπόλευκο χαρτί, διαστάσεων 27,3×21,1 ἑκ. (2 φύλλα). 
-    Στὸν φάκελο ἀναγράφεται ἡ διεύθυνση: 
-    <persName ref="#MS">Δδα <forename>Μαρίκαν </forename>Ἀλ.<surname> Στρομπούλη</surname></persName>,
-    <placeName>
-    Ἀλεξανδρούπολις,</placeName>
-    Ἑταιρεία Οἴνων καὶ Οἰνοπνευμάτων. 
-    Πρώτη δημοσίευση τῆς ἐπιστολῆς μὲ περικοπὲς στὸ 
-    <bibl type="book">
-        <author>
-            <persName ref="#IS"><surname>Συκουτρής</surname></persName>, </author>
-        <title>«Ἀνέκδοτα γράμματα»</title>, 
-        <biblScope unit="pp" from="536"
-            to="537">536–537
-        </biblScope>
-    </bibl> 
-    καὶ δεύτερη στὸ 
-    <bibl type="book"> 
-        <author>
-            <persName ref="#IS"><surname>Συκουτρής</surname></persName></author>. 
-        <title>Πενήντα χρόνια</title>, 
-        <biblScope unit="pp" from="51"
-            to="55">51–55
-        </biblScope>.
-    </bibl>
-</note> 
+
          <p>Ἔκανες πολὺ καλὰ νὰ μοῦ γράψῃς. Ἀκόμη κι' ἂν δὲν ἐπρόκειτο γιὰ ἕνα
     γράμμα ἐξαιρετικὰ καλογραμμένο, θὰ μὲ συγκινοῦσε πάντα νὰ μάθαινα νέα σου καὶ ν'
     ἄκουα τὴν ἥσυχη ὁμιλία σου.
@@ -428,30 +431,31 @@
                     </p>
                 </note>
                 καὶ θἄχω ἴσως λιγώτερο καιρό.</p>
-            <!-- προβληματική κωδικοποιηση υποσημειωσης -->
-            <p>Ἡ <persName><forename>Χαρὰ </forename></persName>
-                <note place="foot" xml:id="ftn13" n="13">
-                    <p rend="footnote text"> Ἡ<persName><forename> Χαρὰ</forename><surname> Συκουτρῆ</surname></persName> (Ρέθυμνο 1901 – Ἀθήνα 1973) ἦταν κόρη
-                        τῆς <persName><forename>Μαρίας</forename></persName> καὶ τοῦ<persName><forename>Μίνωος </forename><surname>Πετυχάκη</surname></persName> , δικηγόρου, πολιτικοῦ, συνεργάτη τοῦ Ε.
-                        Βενιζέλου καὶ Γενικοῦ Διοικητοῦ τῶν Νήσων τοῦ Αἰγαίου. Τὸ 1921 ἀποφοίτησε
-                        ἀπὸ τὴ Φιλοσοφικὴ Σχολὴ Ἀθηνῶν καὶ μετὰ τὸν γάμο της μὲ τὸν <persName><surname>Συκουτρὴ</surname></persName> (1925)
-                        συνέχισε τὶς σπουδές της στὰ Πανεπιστήμια τῆς Λιψίας καὶ τοῦ Βερολίνου. Ἀπὸ
-                        τὸ 1931 δίδαξε παιδαγωγικὰ στὸ Διδασκαλεῖο τοῦ Ἀρσακείου —Παιδαγωγικὴ
-                        Ἀκαδημία ἀπὸ τὸ 1936—, ὅπου ἀπὸ τὸ 1948 ὣς τὸ 1963 διετέλεσε
-                        διευθύντρια.
-                    </p>
-                </note>
-                σὲ χαιρετᾷ. Πῶς περνᾷς στὴ Θράκη; Βρίσκεις καιρὸ νὰ διαβάζῃς;
-            </p> 
     <closer>  
         <salute>Μὰ πάντα θὰ σὲ σκέπτωμαι καὶ θὰ βρίσκωμαι κοντά σου μὲ φιλίαν παντοτινὴν καὶ ἄδολη
        </salute>
        
         <signed>
-            <persName ref="#IS"><forename>Ι.Α.Γ.</forename><surname> Συκουτρῆς</surname></persName></signed> 
-            
+            <persName ref="#IS"><forename>Ι.Α.Γ.</forename><surname> Συκουτρῆς</surname></persName>
+        </signed>   
     </closer> 
+       <postscript>
+           <p>Ἡ <persName><forename>Χαρὰ </forename></persName>
+               <note place="foot" xml:id="ftn13" n="13">
+                   <p rend="footnote text"> Ἡ<persName><forename> Χαρὰ</forename><surname> Συκουτρῆ</surname></persName> (Ρέθυμνο 1901 – Ἀθήνα 1973) ἦταν κόρη
+                       τῆς <persName><forename>Μαρίας</forename></persName> καὶ τοῦ<persName><forename>Μίνωος </forename><surname>Πετυχάκη</surname></persName> , δικηγόρου, πολιτικοῦ, συνεργάτη τοῦ Ε.
+                       Βενιζέλου καὶ Γενικοῦ Διοικητοῦ τῶν Νήσων τοῦ Αἰγαίου. Τὸ 1921 ἀποφοίτησε
+                       ἀπὸ τὴ Φιλοσοφικὴ Σχολὴ Ἀθηνῶν καὶ μετὰ τὸν γάμο της μὲ τὸν <persName><surname>Συκουτρὴ</surname></persName> (1925)
+                       συνέχισε τὶς σπουδές της στὰ Πανεπιστήμια τῆς Λιψίας καὶ τοῦ Βερολίνου. Ἀπὸ
+                       τὸ 1931 δίδαξε παιδαγωγικὰ στὸ Διδασκαλεῖο τοῦ Ἀρσακείου —Παιδαγωγικὴ
+                       Ἀκαδημία ἀπὸ τὸ 1936—, ὅπου ἀπὸ τὸ 1948 ὣς τὸ 1963 διετέλεσε
+                       διευθύντρια.
+                   </p>
+               </note>
+               σὲ χαιρετᾷ. Πῶς περνᾷς στὴ Θράκη; Βρίσκεις καιρὸ νὰ διαβάζῃς;
+           </p> 
+   </postscript>
+      </div>
    </body>
   </text>
 </TEI>
-
